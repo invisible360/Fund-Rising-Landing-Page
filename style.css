@@ -25,8 +25,10 @@ h2{
     padding: 10%;
 }
 
-.motto p{
+p{
     line-height: 1.5;
+}
+.motto p{
     margin-bottom: 50px;
 }
 
@@ -41,11 +43,12 @@ h2{
 
 .donation-input {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .donation-quote {
     margin: 50px 250px 50px 250px;
+    text-align: center;
 }
 
 .donation-amount {
@@ -67,7 +70,7 @@ h2{
 }
 
 .other-amount {
-    margin: 50px 250px 50px 250px;
+    margin: 50px 250px 10px 250px;
 }
 
 .other-amount input{
@@ -76,4 +79,37 @@ h2{
     font-size: 20px;
     font-weight: 700;
     text-align: center;
+}
+hr{
+    margin-bottom: 20px;
+}
+
+.plan-quote {
+    text-align: center;
+    margin: 50px 280px 20px 280px;
+}
+
+.basic-plan {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px 50px 100px;
+}
+
+.flexible{
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    margin: .75%;
+}
+
+#food {
+    background-color: aquamarine;
+}
+#shelter {
+    background-color: darksalmon;
+}
+
+#education {
+    background-color: burlywood;
 }
