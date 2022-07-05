@@ -108,14 +108,14 @@ hr{
 }
 
 #food {
-    background-color: aquamarine;
+    background-color: rgb(217, 244, 239);
 }
 #shelter {
-    background-color: darksalmon;
+    background-color: rgb(237, 198, 185);
 }
 
 #education {
-    background-color: burlywood;
+    background-color: rgb(236, 225, 169);
 }
 
 .subscriber-form {
