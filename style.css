@@ -89,10 +89,14 @@ hr{
     margin: 50px 280px 20px 280px;
 }
 
+.donation-plan {
+    margin-bottom: 100px;
+}
+
 .basic-plan {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 100px 50px 100px;
+    margin: 0 100px 0 100px;
 }
 
 .flexible{
@@ -112,4 +116,52 @@ hr{
 
 #education {
     background-color: burlywood;
+}
+
+.subscriber-form {
+    background-color: rgb(237, 234, 193);
+    text-align: center;
+    margin: 50px 300px 80px 300px;
+}
+.subscriber-form form {
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+}
+.subscriber-form form input{
+    margin: 0;
+    border: none;
+}
+
+#email {
+    background-color: rgb(205, 196, 196);
+    font-weight:400;
+    padding: 5px;
+    border-radius: 3px 0 0 3px;
+}
+
+#subs {
+    background-color: tomato;
+    color: white;
+    padding: 5px 20px;
+    font-weight:400;
+    border-radius: 0 3px 3px 0;
+    font-size: 10px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+footer h2{
+    color: red;
+    font-size: 20px;
+    font-family: 'Lobster', 'cursive';
+}
+
+footer p{
+    color: white;
 }
