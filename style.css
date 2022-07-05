@@ -72,4 +72,8 @@ h2{
 
 .other-amount input{
     border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
 }
