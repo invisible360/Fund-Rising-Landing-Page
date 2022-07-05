@@ -7,13 +7,16 @@ body{
 h1{
     font-size: 50px;
 }
+
+h2{
+    font-size: 40px;
+}
 .top-banner {
     background-image: url(image/bannerCover.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     width: 100%;
-    margin-bottom: 100px;
 }
 .motto {
     text-align: center;
@@ -34,4 +37,39 @@ h1{
     background-image: linear-gradient(to left, red, tomato);
     font-size: 25px;
     border-radius: 5px;
+}
+
+.donation-input {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.donation-quote {
+    margin: 50px 250px 50px 250px;
+}
+
+.donation-amount {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 250px 50px 250px;
+}
+
+.donation-amount h3 {
+    background-color: rgba(255, 0, 238, 0.059);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#regular-amount {
+    border: 2px solid tomato;
+    background-color: rgba(255, 99, 71, 0.176);
+    color: tomato;
+}
+
+.other-amount {
+    margin: 50px 250px 50px 250px;
+}
+
+.other-amount input{
+    border: none;
 }
