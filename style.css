@@ -13,7 +13,6 @@ h2 {
 }
 
 .top-banner {
-    /* background-image: url(image/bannerCover.jpg); */
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.717), rgba(255, 255, 255, 0)), url(image/bannerCover.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +23,7 @@ h2 {
 
 .motto {
     text-align: center;
-    margin: 0 15%;
+    margin: -100px 15% 50px;
     color: white;
     padding: 10%;
 }
@@ -48,7 +47,8 @@ p {
 
 .donation-input {
     text-align: center;
-    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 250px;
 }
 
 .donation-quote {
@@ -90,13 +90,13 @@ hr {
     margin-bottom: 20px;
 }
 
+.donation-plan {
+    margin-bottom: 100px;
+}
+
 .plan-quote {
     text-align: center;
     margin: 50px 280px 20px 280px;
-}
-
-.donation-plan {
-    margin-bottom: 100px;
 }
 
 .basic-plan {
@@ -110,11 +110,10 @@ hr {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 30px;
-    /* margin: 0 5px 0 5px; */
     margin: .75%;
 }
 
-.flexible p{
+.flexible p {
     text-align: left;
 }
 
@@ -131,46 +130,51 @@ hr {
 }
 
 .bonus-section-gallery {
-    display: flex;
-    justify-content: space-evenly;
+    display: inline-block;
     width: 85%;
     height: 450px;
     background-color: rgba(102, 179, 125, 0.559);
-    margin: 5% 7.5% 15%;
+    margin: 5% 7.5% 5%;
 }
 
 #map-gal-image1 {
-    margin-top: -30px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    position: relative;
+    top: -40px;
+    left: 30px;
+    bottom: 30px;
 }
 
 #map-gal-image2 {
-    margin-top: 30px;
-    margin-left: 25px;
+    position: relative;
+    top: 30px;
+    left: 60px;
 }
 
 #map-gal-image3 {
-    margin-top: 30px;
-    margin-left: -100px;
+    position: relative;
+    top: -200px;
+    left: -40px;
+    z-index: 1;
 }
 
 #map-gal-image4 {
-    margin-left:-500px;
-    margin-top: 280px; 
+    position: relative;
+    top: 40px;
+    left: -100px;
 }
 
 #map-gal-image5 {
-    margin-bottom: 100px;
-    margin-left:-50px;
+    position: relative;
+    left: -180px;
+    top: -80px;
 }
 
-#gallary-info {
-    width: 500px;
-    margin-left: 50px;
-    margin-right: 5px;
-    margin-top: 10px;
-    font-size: 10px;
+
+ #gallary-info {
+    position: relative;
+    width: 400px;
+    top: -450px;
+    left: 650px;
 }
 
 #gallary-info h2 {
@@ -181,6 +185,10 @@ hr {
     font-size: 15px;
 }
 
+.plan-quote h2 {
+    margin: 0;
+    margin-top: -100px;
+}
 .subscriber-form {
     background-color: rgb(237, 234, 193);
     text-align: center;
