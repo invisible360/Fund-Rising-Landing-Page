@@ -1,16 +1,17 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
 }
 
-h1{
+h1 {
     font-size: 50px;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
+
 .top-banner {
     /* background-image: url(image/bannerCover.jpg); */
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.717), rgba(255, 255, 255, 0)), url(image/bannerCover.jpg);
@@ -20,6 +21,7 @@ h2{
     background-size: cover;
     width: 100%;
 }
+
 .motto {
     text-align: center;
     margin: 0 15%;
@@ -27,10 +29,11 @@ h2{
     padding: 10%;
 }
 
-p{
+p {
     line-height: 1.5;
 }
-.motto p{
+
+.motto p {
     margin-bottom: 50px;
 }
 
@@ -75,14 +78,15 @@ p{
     margin: 50px 250px 10px 250px;
 }
 
-.other-amount input{
+.other-amount input {
     border: none;
     outline: none;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
 }
-hr{
+
+hr {
     margin-bottom: 20px;
 }
 
@@ -101,7 +105,7 @@ hr{
     margin: 0 100px 150px 100px;
 }
 
-.flexible{
+.flexible {
     padding-top: 80px;
     padding-left: 15px;
     padding-right: 5px;
@@ -112,6 +116,7 @@ hr{
 #food {
     background-color: rgb(126, 180, 234);
 }
+
 #shelter {
     background-color: rgb(237, 198, 185);
 }
@@ -119,6 +124,7 @@ hr{
 #education {
     background-color: rgb(236, 225, 169);
 }
+
 .bonus-section-gallery {
     display: flex;
     justify-content: space-evenly;
@@ -126,7 +132,6 @@ hr{
     height: 450px;
     background-color: rgba(102, 179, 125, 0.559);
     margin: 5% 7.5% 15%;
-    
 }
 
 #map-gal-image1 {
@@ -162,7 +167,7 @@ hr{
     font-size: 10px;
 }
 
-#gallary-info h2{
+#gallary-info h2 {
     margin: 0;
 }
 
@@ -171,12 +176,14 @@ hr{
     text-align: center;
     margin: 50px 300px 80px 300px;
 }
+
 .subscriber-form form {
     padding: 8%;
     display: flex;
     justify-content: center;
 }
-.subscriber-form form input{
+
+.subscriber-form form input {
     margin: 0;
     border: none;
 }
@@ -197,21 +204,21 @@ hr{
     font-size: 10px;
 }
 
-footer{
+footer {
     background-color: black;
     text-align: center;
     padding: 5px;
     
 }
 
-footer h2{
+footer h2 {
     color: red;
     font-size: 20px;
     font-family: 'Lobster', 'cursive';
     letter-spacing: 2px;
 }
 
-footer p{
+footer p {
     color: white;
     font-size: 10px;
 }
