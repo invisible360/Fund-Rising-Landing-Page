@@ -12,10 +12,12 @@ h2{
     font-size: 40px;
 }
 .top-banner {
-    background-image: url(image/bannerCover.jpg);
+    /* background-image: url(image/bannerCover.jpg); */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.717), rgba(255, 255, 255, 0)), url(image/bannerCover.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    height: 550px;
+    background-size: cover;
     width: 100%;
 }
 .motto {
@@ -96,7 +98,7 @@ hr{
 .basic-plan {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 100px 0 100px;
+    margin: 0 100px 150px 100px;
 }
 
 .flexible{
@@ -108,7 +110,7 @@ hr{
 }
 
 #food {
-    background-color: rgb(217, 244, 239);
+    background-color: rgb(126, 180, 234);
 }
 #shelter {
     background-color: rgb(237, 198, 185);
@@ -116,6 +118,52 @@ hr{
 
 #education {
     background-color: rgb(236, 225, 169);
+}
+.bonus-section-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    height: 450px;
+    background-color: rgba(102, 179, 125, 0.559);
+    margin: 5% 7.5% 15%;
+    
+}
+
+#map-gal-image1 {
+    margin-top: -30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#map-gal-image2 {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+#map-gal-image3 {
+    margin-top: 30px;
+    margin-left: -100px;
+}
+
+#map-gal-image4 {
+    margin-left:-500px;
+    margin-top: 280px; 
+}
+
+#map-gal-image5 {
+    margin-bottom: 100px;
+    margin-left:-50px;
+}
+
+#gallary-info {
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size: 10px;
+}
+
+#gallary-info h2{
+    margin: 0;
 }
 
 .subscriber-form {
@@ -160,8 +208,10 @@ footer h2{
     color: red;
     font-size: 20px;
     font-family: 'Lobster', 'cursive';
+    letter-spacing: 2px;
 }
 
 footer p{
     color: white;
+    font-size: 10px;
 }
